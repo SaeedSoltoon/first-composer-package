@@ -1,0 +1,21 @@
+{
+    "name": "saeedsoltoon/first-package",
+    "description": "First Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed Soltani",
+            "email": "soltoon.theleader@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "FirstPackage": "src/"
+        }
+    }
+}
